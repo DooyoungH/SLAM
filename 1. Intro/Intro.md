@@ -77,27 +77,23 @@ A|B : 관심이 있는 사건이 일어났을 때 A의 확률
 베이지안 확률론은 어떠한 사건에 관련이 있는 여러 확률을 이용하여 새롭게 일어날 수 있는 사건에 대한 확률을 추정하는 방법으로,
 일어나지 않은 일에 대한 확률을 불확실성의 개념으로 이야기 하고 있습니다.
 
-저는 베이즈 정리를 어떤 사건이 일어날 확률 A와 이를 업데이트하는 B 로 이해하는 편이 이해가 빨랐습니다.
+외람되지만 저는 베이즈 정리를 어떤 사건이 일어날 확률 A와 이를 업데이트하는 B 로 이해하는 편이 이해가 빨랐습니다.\
 P(B의 영향을 받은 A가 일어날 확률) = P(B가 A에 준 영향의 정도) * P(A가 일어날 확률) 
 
 이렇게 구해진 P(A|B) 를 다시 P(A)로 치환하고 매 스탭마다 반복하여 확률을 계산하는 방법을 응용하여
-로봇의 state를 observation 과 control input으로 부터 구해내는 방법은 bayes filter 라고 합니다.
+로봇의 state를 observation 과 control input으로 부터 구해내는 방법을 bayes filter 라고 합니다.
 
 ```
 http://jinyongjeong.github.io/2017/02/13/lec01_SLAM_bayes_filter/
 ```
 다음의 정진영 선생님의 깃 블로그 홈페이지에 유도 과정이 설명이 잘 되어 있습니다.
 
+2. Localization : 로봇의 position 및 orientation 을 알아내는 방법으로 state estimation의 한 부분 입니다.
+주변의 환경의 정보로부터 로봇의 위치를 알아냅니다.
 
-## 3. IDE
+3. Mapping : Localization 와는 반대로 로봇에서 noisy 한 sensor 의 데이터를 통해 주변의 환경의 정보를 알아내는 방법입니다.
 
-
-
-
-
-## 4. TEST RUN
-
-
+4. SLAM : 로봇이 자신의 위치를 알기 위해서는 주변 환경에 대한 정보를 파악하여야 하며, 그 환경을 알기 위해서는 현재 자신이 위치한 위치를 알아야 하므로 결국 Simultaneous localization and mapping 은 결국 서로 상호작용을 하는 2와 3을 동시에 진행하는 것 입니다. 
 
 
 [1] : https://cafe.naver.com/openrt 
