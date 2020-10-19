@@ -65,7 +65,7 @@ GPS의 도움 없이 데드레커닝 (모터에 달린 엔코더의 정보를 �
 
 html header: <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
-\\(P(A|B) = P(B|A)P(A) / P(B) \\)
+$P(A|B) = P(B|A)P(A) / P(B)$
 
 
 ## 3. IDE
