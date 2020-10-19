@@ -66,6 +66,10 @@ GPS의 도움 없이 데드레커닝 (모터에 달린 엔코더의 정보를 �
 \P(A|B) = \frac{P(B|A)P(A)}{P(B)}
 $`P(A|B) = \frac{P(B|A)P(A)}{P(B)}`$
 
+$$
+P(A|B) = \frac{P(B|A)P(A)}{P(B)}
+$$
+
 
 ## 3. IDE
 
