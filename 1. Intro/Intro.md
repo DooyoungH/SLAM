@@ -63,9 +63,7 @@ GPS의 도움 없이 데드레커닝 (모터에 달린 엔코더의 정보를 �
 
 베이즈 정리는 확률론과 통계학에서 많이 사용되며, 두 확률변수의 관계를 나타내는 정리입니다.
 
-html header: <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-$P(A|B) = P(B|A)P(A) / P(B)$
+\P(A|B) = \frac{P(B|A)P(A)}{P(B)}
 
 
 ## 3. IDE
