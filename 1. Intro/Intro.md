@@ -101,7 +101,9 @@ https://sunggoo.tistory.com/40?category=865372
 ```
 
 SLAM 의 problem formulation 은 다음과 같습니다.
-$Given$ :
+
+$Given$ :\
+	1. 로봇의 control input $u_{1:T} = \{u_1, u_2\}$ 
 
 
 
