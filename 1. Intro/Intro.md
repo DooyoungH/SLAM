@@ -89,13 +89,13 @@ P(B의 영향을 받은 A가 일어날 확률) = P(B가 A에 준 영향의 정�
 
 SLAM 의 problem formulation 은 다음과 같습니다.
 
->$Given$ :
->로봇의 control input 	$u_{1:T} = ₩{u_1, u_2, ..., u_T}$
->센서의 sensing value 	$z_{1:T} = ₩{z_1, z_2, ..., z_T}$
->
->$Control knob$ :
->1. 로봇의 control input 과  
->$Objective$ :\
+$Given$ :
+&nbsp;&nbsp;로봇의 control input 	$u_{1:T} = \{u_1, u_2, ..., u_T\}$
+&nbsp;&nbsp;센서의 sensing value 	$z_{1:T} = \{z_1, z_2, ..., z_T\}$
+
+$Control knob$ :
+&nbsp;&nbsp;로봇의 control input 과  
+$Objective$ :\
 
 
 
