@@ -95,6 +95,15 @@ http://jinyongjeong.github.io/2017/02/13/lec01_SLAM_bayes_filter/
 
 4. SLAM : 로봇이 자신의 위치를 알기 위해서는 주변 환경에 대한 정보를 파악하여야 하며, 그 환경을 알기 위해서는 현재 자신이 위치한 위치를 알아야 하므로 결국 Simultaneous localization and mapping 은 결국 서로 상호작용을 하는 2와 3을 동시에 진행하는 것 입니다. 
 
+이하의 내용은 항공학도님의 티스토리를 참고하였습니다.
+```
+https://sunggoo.tistory.com/40?category=865372
+```
+
+SLAM 의 problem formulation 은 다음과 같습니다.
+$Given$ :
+
+
 
 [1] : https://cafe.naver.com/openrt 
  
