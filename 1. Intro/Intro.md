@@ -103,7 +103,7 @@ https://sunggoo.tistory.com/40?category=865372
 SLAM 의 problem formulation 은 다음과 같습니다.
 
 $Given$ :\
-	1. 로봇의 control input 	$u_{1:T} = \{u_1, u_2, ..., u_T\}$
+\indent	1. 로봇의 control input 	$u_{1:T} = \{u_1, u_2, ..., u_T\}$\
 	2. 센서의 sensing value	$z_{1:T} = \{z_1, z_2, ..., z_T\}$
 
 
