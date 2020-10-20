@@ -11,17 +11,9 @@ ROS는 로봇산업분야에서 많이 사용되고 있는 툴로써 로봇을 U
 SLAM 이라는 기법론 자체부터 많은량의 이론적 지식을 필요로 하며 전공자가 아니라면 접근이 쉽지 않습니다. 
 
 본 문서는 본인이 공부를 진행하면서 이해한 내용과 코드 내용을 기록해 놓는 저장소 입니다. 
-저 또한 공부를 위해 많은 사이트를 참고하였으며 티스토리의 확률적 로봇공학을 소개한 사이트와
-```
-https://throwexception.tistory.com/316?category=869774
-```
+저 또한 공부를 위해 많은 사이트를 참고하였으며 티스토리의 확률적 [로봇공학을 소개한 사이트] [2]와 [파이썬 로보틱스] [3]를 주로 참고하였습니다.
 
-파이썬 로보틱스를 주로 참고하였습니다.
-```
-https://pythonrobotics.readthedocs.io/en/latest/getting_started.html
-```
-
-A to Z 까지 모든 내용을 설명하진 않겠지만 그래도 SLAM 을 공부할 때 무엇부터 해야 할 지 막막한 분들에게 도움이 되었으면 좋겠습니다.
+모든 내용을 A to Z 까지 설명하진 않겠지만 그래도 SLAM 을 공부할 때 무엇부터 해야 할 지 막막한 분들에게 도움이 되었으면 좋겠습니다.
 
 
 ## 2. SLAM (Simultaneous localization and mapping) 이란?
@@ -83,10 +75,7 @@ P(B의 영향을 받은 A가 일어날 확률) = P(B가 A에 준 영향의 정�
 이렇게 구해진 P(A|B) 를 다시 P(A)로 치환하고 매 스탭마다 반복하여 확률을 계산하는 방법을 응용하여
 로봇의 state를 observation 과 control input으로 부터 구해내는 방법을 bayes filter 라고 합니다.
 
-```
-http://jinyongjeong.github.io/2017/02/13/lec01_SLAM_bayes_filter/
-```
-다음의 정진영 선생님의 깃 블로그 홈페이지에 유도 과정이 설명이 잘 되어 있습니다.
+다음의 [정진영 선생님의 깃 블로그] [4]에 유도 과정이 설명이 잘 되어 있습니다.
 
 2. Localization : 로봇의 position 및 orientation 을 알아내는 방법으로 state estimation의 한 부분 입니다.
 주변의 환경의 정보로부터 로봇의 위치를 알아냅니다.
@@ -95,24 +84,26 @@ http://jinyongjeong.github.io/2017/02/13/lec01_SLAM_bayes_filter/
 
 4. SLAM : 로봇이 자신의 위치를 알기 위해서는 주변 환경에 대한 정보를 파악하여야 하며, 그 환경을 알기 위해서는 현재 자신이 위치한 위치를 알아야 하므로 결국 Simultaneous localization and mapping 은 결국 서로 상호작용을 하는 2와 3을 동시에 진행하는 것 입니다. 
 
-이하의 내용은 항공학도님의 티스토리를 참고하였습니다.
-```
-https://sunggoo.tistory.com/40?category=865372
-```
+이하의 내용은 [항공학도님의 티스토리] [5]를 참고하였습니다.
+
 
 SLAM 의 problem formulation 은 다음과 같습니다.
 
-```
 $Given$ :\
     1. 로봇의 control input 	$u_{1:T} = \{u_1, u_2, ..., u_T\}$\
 	2. 센서의 sensing value	$z_{1:T} = \{z_1, z_2, ..., z_T\}$\
 \
 $Control knob$ :\
+    로봇의 control input 과  
 
 $Objective$ :\
-```
+
 
 
 
 [1] : https://cafe.naver.com/openrt 
+[2] : https://throwexception.tistory.com/316?category=869774
+[3] : https://pythonrobotics.readthedocs.io/en/latest/getting_started.html
+[4] : http://jinyongjeong.github.io/2017/02/13/lec01_SLAM_bayes_filter/
+[5] : https://sunggoo.tistory.com/40?category=865372
  
