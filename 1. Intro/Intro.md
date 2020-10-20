@@ -101,9 +101,9 @@ $Objective$ :\
 
 
 
-[1] : https://cafe.naver.com/openrt 
-[2] : https://throwexception.tistory.com/316?category=869774
-[3] : https://pythonrobotics.readthedocs.io/en/latest/getting_started.html
-[4] : http://jinyongjeong.github.io/2017/02/13/lec01_SLAM_bayes_filter/
+[1] : https://cafe.naver.com/openrt \
+[2] : https://throwexception.tistory.com/316?category=869774 \
+[3] : https://pythonrobotics.readthedocs.io/en/latest/getting_started.html \
+[4] : http://jinyongjeong.github.io/2017/02/13/lec01_SLAM_bayes_filter/ \
 [5] : https://sunggoo.tistory.com/40?category=865372
  
