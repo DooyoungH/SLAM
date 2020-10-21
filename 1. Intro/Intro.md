@@ -75,9 +75,10 @@ P(B의 영향을 받은 A가 일어날 확률) = P(B가 A에 준 영향의 정�
 
 이렇게 구해진 P(A|B) 를 다시 P(A)로 치환하고 매 스탭마다 반복하여 확률을 계산하는 방법을 응용하여
 로봇의 state를 observation 과 control input으로 부터 구해내는 방법을 bayes filter 라고 합니다.
+----
 
 다음의 정진영 선생님의 깃 블로그 [4][http://jinyongjeong.github.io/2017/02/13/lec01_SLAM_bayes_filter/] 에 유도 과정이 설명이 잘 되어 있습니다.
-----
+
 
 &nbsp;&nbsp;__2. Localization__ : 로봇의 position 및 orientation 을 알아내는 방법으로 state estimation의 한 부분 입니다.
 주변의 환경의 정보로부터 로봇의 위치를 알아냅니다.
@@ -88,9 +89,9 @@ P(B의 영향을 받은 A가 일어날 확률) = P(B가 A에 준 영향의 정�
 
 이하의 내용은 항공학도님의 티스토리 [5][https://sunggoo.tistory.com/40?category=865372] 를 참고하였습니다.
 
-
 SLAM 의 problem formulation 은 다음과 같습니다.
 
+----
 $Given$ :\
 &nbsp;&nbsp;로봇의 control input 		&nbsp;$u_{1:T}$ = \{$u_1, u_2, ..., u_T$\}\
 &nbsp;&nbsp;센서의 sensing value 		&nbsp;$z_{1:T}$ = \{$z_1, z_2, ..., z_T$\}
@@ -99,6 +100,7 @@ $Control knob$ :\
 &nbsp;&nbsp;로봇의 control input 과  
 $Objective$ :\
 
+----
 
 
 
